@@ -1,0 +1,347 @@
+html {
+    min-height: 100%;  
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#CFCFCF ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+
+
+
+
+
+.main {
+    width: calc(100% - 275px);
+    margin-left: 245px;
+    margin-right: 20px;
+    margin-top: 15px;
+    flex: 1;
+}
+
+.main table {
+    table-layout: fixed;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 80%;
+    border: 2px solid #B7C9B0;
+    border-radius: 10px;
+}
+
+.main thead {
+    background-color: #B7C9B0;
+
+}
+
+.main tbody {
+    background-color: white;
+
+}
+
+.main th, tr {
+    border: 2px solid #B7C9B0;
+    padding: 15px;
+}
+
+.main h2 {
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+
+.secondary-text {
+    color: #707070;
+
+}
+
+
+
+
+
+
+
+.top-banner {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 40px;
+    background-color: #B7C9B0; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.18);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.left-banner {
+    background-color: #30343B;
+    color:#E3E2E4 ;
+    text-align: center;
+    width: 220px;
+    height: calc(100% - 80px);
+    margin-top: 80px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    border-right: 1px solid #ddd;
+}
+
+.left-banner a:hover {
+    color: #B7C9B0;            
+}
+
+.left-banner a {
+    color:#E3E2E4 ;          
+}
+
+.left-banner hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #B7C9B0;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color:gray;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    margin-top: 40px;
+    margin-left: 220px;
+    width: calc(100% - 220px);
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box {
+    border: 2px solid #B7C9B0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: white;
+    color: #30343B;
+    text-align: center;
+}
+
+.box a {
+    color:#30343B;
+
+}
+
+.box a:hover {
+    color:#829B78;
+
+}
+
+.box h2 {
+
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+.program-box {
+    border: 2px solid #B7C9B0;
+    border-radius: 10px;
+    margin-top: 15px;
+    overflow: hidden;
+    background-color: white;
+    color: #30343B;
+}
+
+.program-header {
+    background-color: #B7C9B0;
+    padding: 10px 20px;
+    font-weight: 1000;
+    text-align: center;
+    font-size: x-large;
+}
+
+.program-header h2 {
+    margin: 0;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.program-content {
+    padding: 15px 20px;
+}
+
+.program-content h2 {
+    text-align: left !important;
+}
+
+.program-box a {
+    color:#30343B;
+
+}
+
+.program-box a:hover {
+    color:#829B78;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.lesson-box1 {
+    border: 2px solid #B7C9B0;
+    border-radius: 10px;
+    margin-top: 15px;
+    overflow: hidden;
+    background-color: white;
+    color: #30343B;
+    text-align: center;
+}
+
+.lesson-box-header1 {
+    background-color: #B7C9B0;
+    padding: 10px 20px;
+    font-weight: 1000;
+    font-size: x-large;
+}
+
+.lesson-box-header1 h2 {
+    margin: 0;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.lesson-box-content1 {
+    padding: 15px 20px;
+}
+.lesson-box1 a {
+    color:#30343B;
+
+}
+
+.lesson-box1 a:hover {
+    color:#829B78;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.start-learning {
+    background-color: white;
+    border: 2px solid #B7C9B0;
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 15px;
+    text-align: left !important;
+    color: #30343B;
+}
+
+.start-learning h2 {
+    margin-top: 0;
+    text-align: left !important;
+}
+
+.start-learning p {
+    font-size: 16px;
+}
+
+.start-learning a {
+    display: inline-block;
+    background-color: #829B78;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.start-learning a:hover {
+    background-color: #637D5B;
+}
