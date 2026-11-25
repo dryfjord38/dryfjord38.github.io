@@ -203,7 +203,7 @@ ol {
 
 .box h2 {
 
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -302,6 +302,10 @@ ol {
 
 }
 
+ul {
+    list-style-position: inside;
+}
+
 
 
 
@@ -344,4 +348,54 @@ ol {
 
 .start-learning a:hover {
     background-color: #637D5B;
+}
+
+
+
+
+
+
+
+
+.example {
+    display: flex;
+    
+}
+
+.example p {
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.example img {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.example-section {
+    font-weight: bold;
+
+}
+
+.example-section table{
+    border: white;
+    border-collapse: collapse;
+    outline: hidden;
+    table-layout: fixed;
+
+
+
+}
+
+.example-section table img {
+    max-height: 260px;
+    max-width: 85%;
+    width: auto;
+    object-fit: contain;
+
 }
